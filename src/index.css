@@ -1,0 +1,23 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #0a0a0a;
+  color: #f3f4f6;
+  overflow-x: hidden;
+}
+
+/* Canvas styles for cyberpunk background */
+canvas {
+  display: block;
+}
+
+/* Ensure content stays above the background */
+.z-10 {
+  position: relative;
+  z-index: 10;
+}
+
