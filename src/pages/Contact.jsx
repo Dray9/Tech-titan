@@ -24,7 +24,7 @@ export const Contact = () => {
                     />
                 </div>
                 <div className="mx-auto max-w-2xl text-center">
-                    <h2 className="text-4xl font-semibold tracking-tight text-balance text-teal-500 sm:text-5xl">Contact us</h2>
+                    <h2 className="text-4xl font-semibold tracking-tight text-balance text-teal-500 sm:text-5xl">Lets get in Touch</h2>
                     <p className="mt-2 text-lg/8 text-white-100">Aute magna irure deserunt veniam aliqua magna enim voluptate.</p>
                 </div>
                 <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
