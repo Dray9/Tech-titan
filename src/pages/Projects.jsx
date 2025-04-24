@@ -12,7 +12,7 @@ export const Projects = () => {
                     </p>
                     <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3">
                         {/* Project Card 1 */}
-                        <div className="bg-gray-900 rounded-lg p-6 transition-transform hover:scale-105">
+                        <div className="bg-gray-900 rounded-lg p-6 transition-all duration-300 hover:scale-105 hover:outline hover:outline-2 hover:outline-teal-500">
                             <h3 className="text-xl font-semibold text-white mb-2">Mobile App</h3>
                             <p className="text-gray-400 mb-4">
                                 A responsive mobile application built with React Native.
@@ -25,7 +25,7 @@ export const Projects = () => {
                         </div>
 
                         {/* Project Card 2 */}
-                        <div className="bg-gray-900 rounded-lg p-6 transition-transform hover:scale-105">
+                        <div className="bg-gray-900 rounded-lg p-6 transition-all duration-300 hover:scale-105 hover:outline hover:outline-2 hover:outline-teal-500">
                             <h3 className="text-xl font-semibold text-white mb-2">Web Dashboard</h3>
                             <p className="text-gray-400 mb-4">
                                 An interactive dashboard built with React and TailwindCSS.
@@ -38,7 +38,7 @@ export const Projects = () => {
                         </div>
 
                         {/* Project Card 3 */}
-                        <div className="bg-gray-900 rounded-lg p-6 transition-transform hover:scale-105">
+                        <div className="bg-gray-900 rounded-lg p-6 transition-all duration-300 hover:scale-105 hover:outline hover:outline-2 hover:outline-teal-500">
                             <h3 className="text-xl font-semibold text-white mb-2">E-Commerce Site</h3>
                             <p className="text-gray-400 mb-4">
                                 A full-featured online store with payment integration.
