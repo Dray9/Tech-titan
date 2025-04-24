@@ -25,19 +25,19 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
 
                     {/* Desktop Menu */}
                     <div className="hidden md:flex items-center space-x-8">
-                        <a href="#home" className="text-gray-300 hover:text-white transition-colors">
+                        <a href="#home" className="text-gray-300 px-3 py-2 rounded-md hover:bg-teal-500 hover:text-white transition-all">
                             Home
                         </a>
-                        <a href="#about" className="text-gray-300 hover:text-white transition-colors">
+                        <a href="#about" className="text-gray-300 px-3 py-2 rounded-md hover:bg-teal-500 hover:text-white transition-all">
                             About
                         </a>
-                        <a href="#members" className="text-gray-300 hover:text-white transition-colors">
+                        <a href="#members" className="text-gray-300 px-3 py-2 rounded-md hover:bg-teal-500 hover:text-white transition-all">
                             Members
                         </a>
-                        <a href="#projects" className="text-gray-300 hover:text-white transition-colors">
+                        <a href="#projects" className="text-gray-300 px-3 py-2 rounded-md hover:bg-teal-500 hover:text-white transition-all">
                             Projects
                         </a>
-                        <a href="#contact" className="text-gray-300 hover:text-white transition-colors">
+                        <a href="#contact" className="text-gray-300 px-3 py-2 rounded-md hover:bg-teal-500 hover:text-white transition-all">
                             Contact
                         </a>
                     </div>
@@ -53,19 +53,19 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
                         </button>
                     </div>
                     <div className="flex flex-col items-center space-y-8">
-                        <a href="#home" onClick={() => setMenuOpen(false)} className="text-2xl hover:text-teal-500">
+                        <a href="#home" onClick={() => setMenuOpen(false)} className="text-2xl text-gray-300 px-6 py-2 rounded-md hover:bg-teal-500 hover:text-white transition-all">
                             Home
                         </a>
-                        <a href="#about" onClick={() => setMenuOpen(false)} className="text-2xl hover:text-teal-500">
+                        <a href="#about" onClick={() => setMenuOpen(false)} className="text-2xl text-gray-300 px-6 py-2 rounded-md hover:bg-teal-500 hover:text-white transition-all">
                             About
                         </a>
-                        <a href="#members" onClick={() => setMenuOpen(false)} className="text-2xl hover:text-teal-500">
+                        <a href="#members" onClick={() => setMenuOpen(false)} className="text-2xl text-gray-300 px-6 py-2 rounded-md hover:bg-teal-500 hover:text-white transition-all">
                             Members
                         </a>
-                        <a href="#projects" onClick={() => setMenuOpen(false)} className="text-2xl hover:text-teal-500">
+                        <a href="#projects" onClick={() => setMenuOpen(false)} className="text-2xl text-gray-300 px-6 py-2 rounded-md hover:bg-teal-500 hover:text-white transition-all">
                             Projects
                         </a>
-                        <a href="#contact" onClick={() => setMenuOpen(false)} className="text-2xl hover:text-teal-500">
+                        <a href="#contact" onClick={() => setMenuOpen(false)} className="text-2xl text-gray-300 px-6 py-2 rounded-md hover:bg-teal-500 hover:text-white transition-all">
                             Contact
                         </a>
                     </div>
