@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../components/RevealOnScroll";
-import ImageSrc from "../assets/abouticon.png";
+import ImageSrc from "../assets/abouticon.jpg";
 
 export const About = () => {
     return (
